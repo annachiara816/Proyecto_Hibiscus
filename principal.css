@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(254, 246, 250);
+    padding: 0px 80px;
+}
+
+header .img01 {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    }
+
+
+header, nav, section, footer{
+    width: 800px;
+    margin: auto;
+}
+/* Estilo para el contenedor de la navegación */
+nav {
+    background-color: rgb(249, 246, 175); /* Fondo violeta */
+    padding: 10px; /* Espacio alrededor de los elementos */
+}
+
+/* Estilos para la lista no ordenada dentro del nav */
+nav ul {
+    display: flex;
+    justify-content: center; /* Centramos los elementos horizontalmente */
+    list-style-type: none; /* Quitamos los puntos de las listas */
+    margin: 0; /* Eliminamos los márgenes por defecto */
+    padding: 0; /* Eliminamos el padding por defecto */
+}
+
+/* Estilo para cada elemento de la lista (li) */
+nav ul li {
+    display: inline-block; /* Mostramos los elementos en línea */
+    font-size: 15px; /* Tamaño de la fuente */
+    margin: 0 10px; /* Espacio entre cada elemento */
+}
+
+/* Estilo para los enlaces dentro de cada li */
+nav ul li a {
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    color: rgb(98, 43, 135); /* Texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espacio interno en los enlaces */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Efecto hover para cambiar el fondo de los enlaces */
+nav ul li a:hover {
+    background-color: darkviolet; /* Cambiamos el fondo en hover */
+    border-radius: 5px; /* Bordes redondeados en hover */
+}
+
+ul a:hover{
+    background-color: black;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: #555;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons i:hover {
+    color: #000;
+}
